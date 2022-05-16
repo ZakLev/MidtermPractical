@@ -8,6 +8,8 @@ int main()
 {
     char menu[2][32] = { "Another Question","Exit" };
     char questions[4][36] = { "What is 2 + 2?","What is 3 * 3?", "What is 5 + 3?","What is 5 - 2?" };
+
+    // Asnwer choices
     char Question1[4][32] = { "2","5","4","3" };
     char Question2[4][32] = { "9","12","6","10" };
     char Question3[4][32] = { "7","6","8","9" };
@@ -71,24 +73,7 @@ int main()
             break;
         }
     }
-    /*switch (random)
-    {
-    case 1:
-            break;
-    case 2:
-            break;
-    case 3:
-            break;
-    case 4:
-            break;
-
-    default:
-        break;
-    }
-    for (int x = 0; x < 4; x++)
-    {
-       
-    }*/
+   
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
